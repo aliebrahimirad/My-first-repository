@@ -5,7 +5,7 @@ import json
 
 DATA_FILE = "quotes.json"
 
-# Load quotes from file or create a default lis
+# Load quotes from file or create a default list
 def load_quotes():
     if os.path.exists(DATA_FILE):
         with open(DATA_FILE, "r", encoding="utf-8") as f:
