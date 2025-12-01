@@ -47,7 +47,7 @@ def add_quote(quotes):
     else:
         print("⚠️ Empty quote not added.\n")
 
-# Main menu
+# Main men
 def main():
     quotes = load_quotes()
     
