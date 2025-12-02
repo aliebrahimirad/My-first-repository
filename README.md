@@ -24,7 +24,7 @@ def save_quotes(quotes):
     with open(DATA_FILE, "w", encoding="utf-8") as f:
         json.dump(quotes, f, indent=4)
 
-# Sho a random quote
+# Show a random quote
 def show_random_quote(quotes):
     quote = random.choice(quotes)
     now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
