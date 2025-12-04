@@ -19,7 +19,7 @@ def load_quotes():
             "Believe you can, and you’re halfway there."
         ]
 
-# Save quotes to file
+# Save quotes to fil
 def save_quotes(quotes):
     with open(DATA_FILE, "w", encoding="utf-8") as f:
         json.dump(quotes, f, indent=4)
