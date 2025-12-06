@@ -1,4 +1,4 @@
-import random
+import rando
 import datetime
 import os
 import json
